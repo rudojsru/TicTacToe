@@ -9,7 +9,7 @@ CREATE TABLE users (
 -- Table: roles
 CREATE TABLE roles(
   id int NOT NULL AUTO_INCREMENT primary key ,
-  name VARCHAR(100) not null
+  username VARCHAR(100) not null
 )
   ENGINE =InnoDB;
 

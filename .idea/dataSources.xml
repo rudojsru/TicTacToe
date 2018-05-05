@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="tictactoe_app@localhost" uuid="0f216f6d-a585-4fdb-a80b-a6ec9f4ef00b">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.fabric.jdbc.FabricMySQLDriver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/tictactoe_app</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />

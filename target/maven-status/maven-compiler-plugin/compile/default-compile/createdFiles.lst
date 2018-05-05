@@ -1,1 +1,6 @@
-com\wipro\TicTacToeApp\model\Roles.class
+com\wipro\TicTacToeApp\service\UserService.class
+com\wipro\TicTacToeApp\model\User.class
+com\wipro\TicTacToeApp\dao\RoleDao.class
+com\wipro\TicTacToeApp\dao\UserDao.class
+com\wipro\TicTacToeApp\model\Role.class
+com\wipro\TicTacToeApp\service\UserServiceImpl.class
