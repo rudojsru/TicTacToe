@@ -1,6 +1,5 @@
 package com.wipro.loginSecurityApp.model;
 
-import org.springframework.security.core.userdetails.User;
 
 import javax.persistence.*;
 import java.util.Set;

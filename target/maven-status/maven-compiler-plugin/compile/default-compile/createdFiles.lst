@@ -1,6 +1,11 @@
-com\wipro\TicTacToeApp\service\UserService.class
-com\wipro\TicTacToeApp\model\User.class
-com\wipro\TicTacToeApp\dao\RoleDao.class
-com\wipro\TicTacToeApp\dao\UserDao.class
-com\wipro\TicTacToeApp\model\Role.class
-com\wipro\TicTacToeApp\service\UserServiceImpl.class
+com\wipro\loginSecurityApp\model\Role.class
+com\wipro\loginSecurityApp\model\User.class
+com\wipro\loginSecurityApp\dao\RoleDao.class
+com\wipro\loginSecurityApp\service\SecurityServiceImpl.class
+com\wipro\loginSecurityApp\service\UserService.class
+com\wipro\loginSecurityApp\controller\UserController.class
+com\wipro\loginSecurityApp\service\UserServiceImpl.class
+com\wipro\loginSecurityApp\service\SecurityService.class
+com\wipro\loginSecurityApp\service\UserDetailsServiceImpl.class
+com\wipro\loginSecurityApp\dao\UserDao.class
+com\wipro\loginSecurityApp\validator\UserValidator.class
