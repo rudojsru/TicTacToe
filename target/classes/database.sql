@@ -24,8 +24,21 @@ CREATE TABLE user_roles(
   UNIQUE (user_id,role_id)
 )
   ENGINE =InnoDB;
+-- games and results--------------------------------------------------------------------------------
+CREATE TABLE plays(
+  user_id_in_play int NOT NULL,
+  username VARCHAR(100) not null,
+  name_of_play VARCHAR(100)not null,
+  result VARCHAR(100),
 
--- Insert data
+  FOREIGN KEY (user_id_in_play) REFERENCES users(id),
+  FOREIGN KEY (username) REFERENCES users(username)
+
+)
+  ENGINE =InnoDB;
+
+
+-- Insert data---------------------------------------------------------------------------------------
 
 INSERT INTO users VALUES (1, 'Sasza','12345678');
 
